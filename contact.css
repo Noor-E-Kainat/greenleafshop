@@ -84,3 +84,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+.contact-form button {
+    margin-top: 15px;
+}
