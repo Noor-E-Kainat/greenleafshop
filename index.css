@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #e0f0c2;
+    color: #333;
+}
+
+/* Header & Navigation Bar */
+header {
+    background-color: #72a375;
+    padding: 1rem 0;
+    text-align: center;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
