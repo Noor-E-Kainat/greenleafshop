@@ -30,3 +30,8 @@ header {
     padding: 8px 15px;
     transition: background-color 0.3s, border-radius 0.3s;
 }
+/* Hover effect for navbar */
+.navbar a:hover {
+    background-color: #388e3c;
+    border-radius: 5px;
+}
