@@ -32,3 +32,28 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+/* Contact Page Layout */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+}
+
+/* Contact Info (Left Side) */
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.contact-info img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
