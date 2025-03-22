@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-            <!-- Name: Your Name, ID: YourID -->
+            <!-- Name: Noor-E-Kainat, ID: 201025 -->
 
     <!-- Header with Navbar -->
     <header>
@@ -25,6 +25,22 @@
             <p>We'd love to hear from you! Reach out for plant care tips or product inquiries.</p>
             <img src="contactplant.jpg" alt="Contact Plant Image">
         </div>
-    
+        <div class="contact-form">
+            <h3>Contact Form</h3>
+            <form onsubmit="return submitForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+   
 </body>
 </html>
